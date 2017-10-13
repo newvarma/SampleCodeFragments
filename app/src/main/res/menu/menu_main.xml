@@ -7,4 +7,17 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_updates"
+        android:title="Updates"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_update_yellow_400_24dp"
+        />
+
+    <item app:showAsAction="never"
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        android:orderInCategory="101"/>
+
 </menu>

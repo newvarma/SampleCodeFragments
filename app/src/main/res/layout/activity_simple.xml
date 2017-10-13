@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nis.neevan.samplecodefragments.SimpleActivity">
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.nis.neevan.samplecodefragments.fragments.Fragment_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_a" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.nis.neevan.samplecodefragments.fragments.Fragment_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_b" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.nis.neevan.samplecodefragments.fragments.Fragment_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_c" />
+</LinearLayout>
